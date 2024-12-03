@@ -1,0 +1,5 @@
+_pycache_/
+Env
+
+/.history
+*.sqlite3

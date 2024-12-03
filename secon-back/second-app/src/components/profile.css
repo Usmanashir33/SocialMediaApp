@@ -1,0 +1,118 @@
+.profile-header{
+    background-color: aliceblue;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    padding: 4px;
+    min-height: 8vh !important;
+    z-index: 999;
+    margin-bottom: -40px;
+}
+
+.followed{
+    background-color: rgb(29, 14, 14) !important;
+    color: white !important;
+    border: 1px dashed rgb(137, 146, 150) !important;
+}
+.followed:hover{
+    background-color: rgb(199, 216, 230) !important;
+    color: rgb(2, 40, 37) !important;
+}
+.wide-img{
+    margin-top: 40px;
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+.rounded-img{
+    position: absolute;
+    bottom: 0px;
+    left: 7%;
+    transform: translateY(40%);
+    width: 110px;
+    height: 110px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    z-index: 99;
+}
+.user-buttons{
+    position: absolute;
+    right: 2px;
+    display: flex;
+    gap:10px;
+}
+.user-btn,.followed{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 0px 10px  2px 10px;
+    font-size: 16px;
+    /* font-weight: 500; */
+}
+#profile-fullname{
+    font-weight: 700;
+    /* border: 1px solid; */
+}
+#profile-username{
+    font-weight:400 !important;
+    /* border: 1px solid; */
+    font-size: medium;
+    color: rgb(143, 145, 147);
+    margin-bottom: 7px;
+}
+.user-btn:hover{
+    background-color: rgba(78, 76, 76, 0.173);
+}
+.user-info{
+    margin: 45px 10px;
+}
+.user-title{
+    font-size: large;
+    margin-bottom: 10px;
+    max-width: 98%;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.ml-10{ 
+    margin-left: 10px;
+}
+.small2-txt{
+    font-size:medium;
+}
+.following,.followers{
+    color: rgba(58, 54, 54, 0.885);
+    font-size:17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.follow,.address span{
+    margin-top: 10px;
+    color: rgb(143, 145, 147);
+    font-size:medium;
+}
+.follow,a{
+    text-decoration: none;
+    font-size:medium;
+    color: rgb(143, 145, 147);
+
+}
+.additional-data{
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+}
+.additional-data > a{
+    background-color: rgba(224, 246, 250, 0.226);
+    padding: 4px ;
+    border-radius: 4px 4px 0px 0px;
+    /* margin-bottom: 1px; */
+    width: 100%;
+    text-align: center;
+}
+.adjust-icon{
+    font-size: medium;
+}

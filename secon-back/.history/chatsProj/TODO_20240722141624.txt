@@ -1,0 +1,7 @@
+1- I set profile view to allow only authenticated users to view,
+    user can GET all profiles but only the Owner can Update it ,
+    the View need Parameter(id) of the target Profile. 
+2- account delete view 
+    user can only delete his account no one can access or delete it for him,
+3- register view 
+    every body can register,and the profile will be automatically created fo

@@ -1,0 +1,2 @@
+ 1- iset profile view to allow only authenticated users to view iset
+    user

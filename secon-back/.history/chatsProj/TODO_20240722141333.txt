@@ -1,0 +1,4 @@
+1- I set profile view to allow only authenticated users to view iset
+    user can GET all profiles but only the Owner can Update it 
+    the View need Parameter of the target Profile. 
+2-

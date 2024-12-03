@@ -1,0 +1,27 @@
+1- I set profile view to allow only authenticated users to view,
+    user can GET all profiles but only the Owner can Update it ,
+    the View need Parameter(id) of the target Profile. 
+2- account delete view 
+    user can only delete his account no one can access or delete it for him,
+3- register view 
+    every body can register,and the profile will be automatically created for him
+
+4- creat post make every parson can add post,
+    post delete view
+    post update view
+    each post should have 
+    comment,share,likes,views,
+5- comment also share feature with post 
+    but it can be chained comment of comment ans so on
+
+    OUR AVAILBLE END POINTS
+   1 path('posts/',PostsView.as_view(),name='posts'),
+    GET This returns all the available Post  
+    
+    path('post/<int:id>/',PostView.as_view(),name='post'),
+    
+    path('post/<int:post_id>/comments/',PostAssoComments.as_view(),name='post-comments'),
+    path('post/<int:comment_id>/comment/',PostAssoComment.as_view(),name='post-comment'),
+
+    path('comment/<int:comment_id>/replies/',CommentReplies.as_view(),name='comment-replies'),
+    path('comment/<int:comment_id>/reply/',CommentReply.as_view(),name='comment-reply'),
