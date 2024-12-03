@@ -1,4 +1,4 @@
 *.env/
 .sqlite3 /
-history /
+.history /
 Env2
